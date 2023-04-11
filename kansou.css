@@ -1,0 +1,34 @@
+body {
+    background-image: url("img/DSC02543_4.JPG");
+    text-align:center;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    
+}
+.white{
+    margin:0 auto;
+    width:30% ;
+    background-color:rgba(161, 217, 224, 0.623);
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    padding:5%; 
+}
+
+
+.form {
+    width:60%;
+    background-color:rgba(252, 252, 252, 0.671);
+    border-radius: 20px;
+    padding: 5%;
+    /* margin:0 auto; */
+    
+}
+
+.que {
+    margin-top:5% ;
+}
+

@@ -1,0 +1,97 @@
+body{
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-color:rgb(93 141 164);
+
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.header-inner {
+  height: 70px;
+  position: sticky;
+  top: 0; 
+  background-color:rgba(202, 217, 236, 0);
+  display: flex;
+  align-items: center;
+}
+
+.header-outer { 
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: sticky;
+  top: -20px; /* 70-120 = -50 */
+  height: 90px;
+  background-color:rgba(202, 217, 236, 0.603);
+  margin-top: 50px;
+  width: 98%;
+  
+
+
+}
+
+
+
+ul.menu{
+    display:flex;
+    flex-direction: row;
+    top: 70px;
+    align-items: center;
+
+}
+
+li{
+    list-style:none;
+    padding: 0px 18px;
+    margin: 0 auto;
+}
+
+li.menu{
+    border-right:solid 2px rgba(105, 105, 105, 0.479) ;
+
+}
+
+
+/* 以上、ヘッダー */
+
+p{
+    text-align: center;
+}
+
+
+table{
+    margin-top:15%;
+}
+
+td{
+    margin-top:10%;
+}
+
+.contents{
+    width: 65%;
+}
+
+.bike,.guitar{
+    width:50%;
+    margin:0 auto;
+    border-radius: 100%;
+    
+}
+
+.contents_img{
+    display: flex;
+    text-align: center;
+}
+
+.contents_text{
+    width:60%;
+}
+
+
+
+

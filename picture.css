@@ -1,0 +1,83 @@
+body{
+    background-color:rgb(241, 241, 241);
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.header-inner {
+  height: 70px;
+  position: sticky;
+  top: 0; 
+  background-color:rgba(202, 217, 236, 0);
+  /* margin-top: 30px; */
+  display: flex;
+  align-items: center;
+}
+
+.header-outer { 
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: sticky;
+  top: -20px; /* 70-120 = -50 */
+  height: 90px;
+  background-color:rgba(230, 230, 230, 0.603);
+  margin-top: 50px;
+  width: 98%;
+  
+
+
+}
+
+
+
+ul.menu{
+    display:flex;
+    flex-direction: row;
+
+    top: 70px;
+    align-items: center;
+    /* position: sticky; */
+    /* background-color: rgb(248, 248, 248); */
+    /* background-image:url(img/li-bg.jpg); */
+    /* border-radius:10px; */
+    /* padding-left:0px;  */
+    /* border:2px solid rgb(214, 214, 214); */
+    /* box-shadow: 0 1px 1px 0 rgb(238, 238, 238); */
+
+}
+
+li{
+    list-style:none;
+    padding: 0px 18px;
+    margin: 0 auto;
+    /* margin: 0px 10px ; */
+}
+
+li.menu{
+    border-right:solid 2px rgba(105, 105, 105, 0.479) ;
+
+}
+
+
+/* 以上、ヘッダー */
+
+
+
+table{
+    margin:0 auto;
+    margin-top: 100px;
+    
+}
+
+td{
+    padding: 10px;
+}
+img{
+    width:300px;
+}

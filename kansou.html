@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>目安箱</title>
+    <link rel="stylesheet" href="kansou.css">
+</head>
+<body>
+    <div class="white">
+    <h1>目安箱</h1>
+    <p>皆様からのご意見ご感想が私の原動力です！<br>よろしくお願いいたします！</p>
+    </div>
+    <div class="center">
+        <div class="form">
+            
+            <div class="que">
+                <form action="result.html">
+                <label for="name">氏名（任意）</label><br>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="que">
+                <label for="age">年齢（任意）</label><br>
+                <select name="age">
+                    <option value="soccer" selected >10代</option>
+                    <option value="20">20代</option>
+                    <option value="30">30代</option>
+                    <option value="40">40代</option>
+                    <option value="50">50代</option>
+                </select>
+            </div>
+            <div class="que">
+                <label for="recipe"><span style="color:red">(New!)</span>ハーレーダビッドソンの色投票</label><br>
+                <input type="checkbox" name="recipe" value="blue">空の青
+                <input type="checkbox" name="recipe" value="green">森の緑
+                <input type="checkbox" name="recipe" value="scottie">scottieの青
+                <input type="checkbox" name="recipe" value="ayataka">綾鷹の緑
+                <input type="checkbox" name="recipe" value="singou">青信号の緑
+                <input type="checkbox" name="recipe" value="tanuki">緑茶の茶色
+            </div>
+            <div class="que">
+                <label for="comment">ご意見・ご感想</label><br>
+                <textarea name="comment" id="comment" placeholder="苦言少なめでお願いします。" rows="5" cols="40"></textarea><br>
+                <button type="submit">OK</button>
+            </div>
+
+        </div>
+
+        </form>
+        
+    </div>
+    <div>
+        <a href="index.html">トップページへ戻る</a>
+    </div>
+</body>
+</html>

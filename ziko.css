@@ -1,0 +1,110 @@
+body{
+    background-image: url(img/DSC03881.JPG);
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-color:rgb(253, 253, 253);        
+}
+h2{
+    text-align: center;
+}
+
+
+.header-inner {
+  height: 70px;
+  position: sticky;
+  top: 0; 
+  background-color:rgba(202, 217, 236, 0);
+  display: flex;
+  align-items: center;
+}
+
+.header-outer { 
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: sticky;
+  top: -20px; /* 70-120 = -50 */
+  height: 90px;
+  background-color:rgba(202, 217, 236, 0.603);
+  width: 98%;
+  
+
+
+}
+
+
+
+ul.menu{
+    display:flex;
+    flex-direction: row;
+
+    top: 70px;
+    align-items: center;
+
+}
+
+li{
+    list-style:none;
+    padding: 0px 18px;
+    margin: 0 auto;
+}
+
+li.menu{
+    border-right:solid 2px rgba(105, 105, 105, 0.479) ;
+
+}
+
+
+/* 以上、ヘッダー */
+
+p{
+    text-align: center;
+}
+
+table{
+    margin-top:0%;
+}
+
+td{
+    margin-top:10%;
+}
+
+.contents{
+    width: 65%;
+}
+
+.bike,.syoukai,.picture{
+    width:50%;
+    margin:0 auto;
+    border-radius: 100%;
+    opacity: 0.5;
+    
+}
+
+.bike:hover{
+    opacity: 1;
+}
+.syoukai:hover{
+    opacity: 1;
+}
+.picture:hover{
+    opacity: 1;
+}
+
+.hover:hover{
+    width:385px;
+    
+}
+
+.contents_img{
+    display: flex;
+    text-align: center;
+}
+
+.contents_text{
+    width:60%;
+}
+
+
+
