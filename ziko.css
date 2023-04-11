@@ -50,6 +50,20 @@ li{
     margin: 0 auto;
 }
 
+li:hover{
+    background-color: rgba(255, 255, 255, 0.521);
+}
+li>a{
+    text-decoration: none;   
+    color:rgb(52, 53, 58); 
+}
+li>a:hover{
+
+    color:rgb(25, 25, 27); 
+}
+
+
+
 li.menu{
     border-right:solid 2px rgba(105, 105, 105, 0.479) ;
 
