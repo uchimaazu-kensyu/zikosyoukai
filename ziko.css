@@ -10,7 +10,7 @@ h2{
 
 
 .header-inner {
-  height: 70px;
+  height: 50px;
   position: sticky;
   top: 0; 
   background-color:rgba(202, 217, 236, 0);
@@ -24,8 +24,8 @@ h2{
   align-items: center;
   justify-content: flex-end;
   position: sticky;
-  top: -20px; /* 70-120 = -50 */
-  height: 90px;
+  top: 0px; /* 70-120 = -50 */
+  height: 50px;
   background-color:rgba(202, 217, 236, 0.603);
   width: 98%;
   
